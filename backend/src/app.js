@@ -20,7 +20,8 @@ const app = express();
 
 app.use(
   cors({
-    origin: true,
+    // origin: true,
+    origin: 'https://erp-crm-dusky.vercel.app',
     credentials: true,
   })
 );
